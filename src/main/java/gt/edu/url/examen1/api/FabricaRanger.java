@@ -10,9 +10,9 @@ public interface FabricaRanger {
     
     public void hacerAlgo();
     
-    public boolean apilar(Monstruo monstruo);
-    public boolean desapilar(Monstruo monstruo);
-    public boolean encolar(Monstruo monstruo);
-    public boolean desencolar(Monstruo monstruo);
-    public Monstruo fabricar(String elemento);
+    public boolean apilar(Monster monstruo);
+    public boolean desapilar(Monster monstruo);
+    public boolean encolar(Monster monstruo);
+    public boolean desencolar(Monster monstruo);
+    public Monster fabricar(String elemento);
 }
